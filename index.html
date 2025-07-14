@@ -1,725 +1,145 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/index_style.css">
-    <title>CODER BITES</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cosco Roofing - Reliable Roofing in Sunland, CA</title>
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/index_style.css">
 </head>
 
 <body>
-    <section id="loading">
-        <div class="sk-folding-cube">
-            <div class="sk-cube1 sk-cube"></div>
-            <div class="sk-cube2 sk-cube"></div>
-            <div class="sk-cube4 sk-cube"></div>
-            <div class="sk-cube3 sk-cube"></div>
-        </div>
-    </section>
-    
-    <button id="btnUp" class="btn btn-danger"><i class="fa fa-arrow-up"></i></button>
+  <header id="home">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Cosco Roofing Logo" class="img-fluid mx-2"><span>Cosco Roofing</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse px-4" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link text-white" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#gallery">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="homepage d-flex align-items-center text-center text-white">
+      <div class="container">
+        <h1>Reliable Roofing Solutions</h1>
+        <h4>Serving Sunland and Greater Los Angeles</h4>
+        <a href="#about" class="btn btn-primary m-2">Learn More</a>
+      </div>
+    </div>
+  </header>
 
-    <header id="home">
-        <nav class="navbar navbar-expand-lg navbar-dark py-0 bg-dark">
-            <a class="navbar-brand m-0" href="#"><img src="images/logo.png"
-                    class="img-fluid mx-3"><span>CODER.BITS</span></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse px-5 my-0 " id="navbarNav">
-                <ul class="navbar-nav ml-auto my-0">
-                    <li class="nav-item active px-2">
-                        <a class="nav-link text-white active" href="#home">HOME <span
-                                class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item px-2">
-                        <a class="nav-link text-white" href="#about">ABOUT</a>
-                    </li>
-                    <li class="nav-item px-2">
-                        <a class="nav-link text-white" href="#work">WORK</a>
-                    </li>
-                    <li class="nav-item px-2">
-                        <a class="nav-link text-white" href="#portfolio">PORTFOLIO</a>
-                    </li>
-                    <li class="nav-item px-2">
-                        <a class="nav-link text-white" href="#hireMe">HIRE ME</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <div class="homepage">
-            <div class="container">
-                <h1 class="text-white py-1">LETS WORK ON SOMETHING </h1>
-                <h1 class="text-white py-1">INTERESTING TODAY</h1>
-                <h4 class="text-white py-1">Frontend Developer based in London UK</h4>
-                <button class="btn m-2 px-3 py-2"><a href="#about" class="text-white text-decoration-none">Know More
-                        >></a></button>
-                <a href="#about"><i class="fa fa-angle-down fa-4x text-white"></i></a>
-            </div>
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">About Us</h2>
+      <p class="text-center">Cosco Roofing is your trusted partner for high-quality, reliable roofing services in Sunland, CA. We take pride in delivering exceptional workmanship and customer service to protect what matters most: your home or business.</p>
+      <div class="row mt-4">
+        <div class="col-md-6">
+          <img src="images/roofing-about.jpg" alt="Cosco Roofing Team" class="img-fluid rounded">
         </div>
-    </header>
-    <section id="about">
-        <div class="container my-5">
-            <h2>ABOUT ME</h2>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-            <div class="row py-4">
-                <div class="col-md-5">
-                    <div class="about-img">
-                        <img src="images/profile_photo.jpg" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-md-7">
-                    <div class="about-data px-3">
-                        <h3>CAROLINA SANDER</h3>
-                        <h5>Frontend Web Developer</h5>
-                        <p>London based frontend developer and designer aenean commodo ligula eget dolor. Aenean massa.
-                            Cum
-                            sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
-                            felis, ultricies nec, pellentesque eu, pretium quis, sem</p>
-                        <p>Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper nisi. Nam eget dui.
-                            Etiam
-                            rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet
-                            adipiscing sem neque sed ipsum.</p>
-                        <p>Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper nisi. Nam eget dui.
-                            Etiam
-                            rhoncus.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row py-4">
-                <div class="col-md-6 ">
-                    <h2 class="w-100">MY SKILLS</h2>
-                    <div class="skills-data px-2">
-                        <p>About My skills and past work experience Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
-                            dis
-                            parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-                            pretium quis, sem. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper
-                            nisi.
-                            Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam
-                            semper
-                            libero, sit amet adipiscing sem neque sed ipsum.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 px-1">
-                    <div class="skills-info">
-                        <div class="prog-item">
-                            <div class="d-flex justify-content-around py-2">
-                                <span>PSD TEMPLATE</span>
-                                <span class="ml-auto">79%</span>
-                            </div>
-                            <div class="progress">
-                                <div class="progress-bar prog" role="progressbar" style="width: 79%" aria-valuenow="79"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                        <div class="prog-item py-2">
-                            <div class="d-flex justify-content-around py-2">
-                                <span>HTML & CSS</span>
-                                <span class="ml-auto">90%</span>
-                            </div>
-                            <div class="progress">
-                                <div class="progress-bar prog" role="progressbar" style="width: 90%" aria-valuenow="90"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                        <div class="prog-item py-2">
-                            <div class="d-flex justify-content-around py-2">
-                                <span>JAVASCRIPT / JQUERY</span>
-                                <span class="ml-auto">96%</span>
-                            </div>
-                            <div class="progress">
-                                <div class="progress-bar prog" role="progressbar" style="width: 96%" aria-valuenow="96"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                        <div class="prog-item py-2">
-                            <div class="d-flex justify-content-around py-2">
-                                <span>WORDPRESS</span>
-                                <span class="ml-auto">70%</span>
-                            </div>
-                            <div class="progress">
-                                <div class="progress-bar prog" role="progressbar" style="width: 70%" aria-valuenow="70"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row text-center my-5">
-                <button class="btn m-auto px-3 py-2"><a href="#work" class="text-decoration-none text-white">MY
-                        SERVICES</a></button>
-            </div>
+        <div class="col-md-6 d-flex flex-column justify-content-center">
+          <ul>
+            <li>✔️ Residential & Commercial Roofing</li>
+            <li>✔️ Roof Repair & Replacement</li>
+            <li>✔️ Leak Detection & Fixes</li>
+            <li>✔️ Free Estimates</li>
+          </ul>
         </div>
-    </section>
-    <section id="work">
-        <div class="container py-5">
-            <h2>WHAT I DO</h2>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-            <div class="row my-5">
-                <div class="col-md-4">
-                    <div class="work-item p-3 bg-white border mx-1 my-3">
-                        <i class="fa fa-magic p-2 mb-2"></i>
-                        <h5>BRANDING</h5>
-                        <p>Many desktop publishing packages and web page editors now use Lorem Ipsum text.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="work-item p-3 bg-white border mx-1 my-3">
-                        <i class="fa fa-desktop p-2 mb-2"></i>
-                        <h5>WEB DESIGN</h5>
-                        <p>Many desktop publishing packages and web page editors now use Lorem Ipsum text.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="work-item p-3 bg-white border mx-1 my-3">
-                        <i class="fa fa-code p-2 mb-2"></i>
-                        <h5>WEB DEVELOPMENT</h5>
-                        <p>Many desktop publishing packages and web page editors now use Lorem Ipsum text.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="work-item p-3 bg-white border mx-1 my-3">
-                        <i class="fa fa-paper-plane p-2 mb-2"></i>
-                        <h5>EMAIL TAMPLATES</h5>
-                        <p>Many desktop publishing packages and web page editors now use Lorem Ipsum text.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="work-item p-3 bg-white border mx-1 my-3">
-                        <i class="fab fa-wordpress p-2 mb-2"></i>
-                        <h5>WORDPRESS</h5>
-                        <p>Many desktop publishing packages and web page editors now use Lorem Ipsum text.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="work-item p-3 bg-white border mx-1 my-3">
-                        <i class="fa fa-cloud p-2 mb-2"></i>
-                        <h5>WEB HOSTING</h5>
-                        <p>Many desktop publishing packages and web page editors now use Lorem Ipsum text.</p>
-                    </div>
-                </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Our Services</h2>
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Roof Installation</h5>
+              <p class="card-text">High-quality new roof installations using durable materials for long-lasting protection.</p>
             </div>
-            <div class="row text-center">
-                <button class="btn m-auto px-3 py-2"><a href="#portfolio" class="text-decoration-none text-white">GO TO
-                        PORTFOLIO</a></button>
-            </div>
+          </div>
         </div>
-    </section>
-    <section id="count">
-        <div class="container py-5">
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="counter text-center m-3">
-                        <i class="fa fa-magic fa-2x p-2 m-2"></i>
-                        <h3 class="text-white py-2">567</h3>
-                        <h5 class="py-2">LOGO DESIGN</h5>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="counter text-center m-3">
-                        <i class="fa fa-desktop fa-2x p-2 m-2"></i>
-                        <h3 class="text-white py-2">378</h3>
-                        <h5 class="py-2">WEBSITES</h5>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="counter text-center m-3">
-                        <i class="fab fa-wordpress fa-2x p-2 m-2"></i>
-                        <h3 class="text-white py-2">183</h3>
-                        <h5 class="py-2">WORDPRESS</h5>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="counter text-center m-3">
-                        <i class="fa fa-smile fa-2x p-2 m-2"></i>
-                        <h3 class="text-white py-2">965</h3>
-                        <h5 class="py-2">HAPPY CLIENTS</h5>
-                    </div>
-                </div>
+        <div class="col-md-4 mb-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Roof Repairs</h5>
+              <p class="card-text">Quick, reliable repairs for leaks, storm damage, and wear-and-tear to keep your roof secure.</p>
             </div>
+          </div>
         </div>
-    </section>
-    <section id="portfolio">
-        <div class="container py-5">
-            <h2>MY PORTFOLIO</h2>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-            <div class="my-items d-flex flex-column align-content-center">
-                <ul class="nav nav-pills m-auto" id="pills-tab" role="tablist">
-                    <li class="nav-item px-2">
-                        <a class="nav-link active text-decoration-none" id="pills-all-tab" data-toggle="pill"
-                            href="#pills-all" role="tab" aria-controls="pills-all" aria-selected="true">
-                            <h5>All</h5>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-decoration-none" id="pills-branding-tab" data-toggle="pill"
-                            href="#pills-branding" role="tab" aria-controls="pills-branding" aria-selected="false">
-                            <h5>Branding</h5>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-decoration-none" id="pills-website-tab" data-toggle="pill"
-                            href="#pills-website" role="tab" aria-controls="pills-website" aria-selected="false">
-                            <h5>Website</h5>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-decoration-none border-none" id="pills-illu-tab" data-toggle="pill"
-                            href="#pills-illu" role="tab" aria-controls="pills-illu" aria-selected="false">
-                            <h5>Illustration</h5>
-                        </a>
-                    </li>
-                </ul>
-                <div class="tab-content" id="pills-tabContent">
-                    <div class="tab-pane fade show active" id="pills-all" role="tabpanel"
-                        aria-labelledby="pills-all-tab">
-                        <div class="row py-5">
-                            <div class="col-md-4">
-                                <div class="item bg-white m-2">
-                                    <img src="images/website-one-thumb.jpg" class="img-fluid">
-                                    <a href="exampleModal" data-toggle="modal" data-target="#exampleModal"><i
-                                            class="rounded-circle bg-dark text-white p-2 fas fa-search"></i></a>
-                                    <div class="item-caption text-center pt-4 pb-1">
-                                        <h5>PROJECT NAME</h5>
-                                        <p>Website</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="item bg-white m-2">
-                                    <img src="images/branding-one-thumb.jpg" class="img-fluid">
-                                    <a href="exampleModal" data-toggle="modal" data-target="#exampleModal"><i
-                                            class="rounded-circle bg-dark text-white p-2 fas fa-search"></i></a>
-                                    <div class="item-caption text-center pt-4 pb-1">
-                                        <h5>PROJECT NAME</h5>
-                                        <p>Branding</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="item bg-white m-2">
-                                    <img src="images/illustration-one-thumb.jpg" class="img-fluid">
-                                    <i href="#" class="rounded-circle bg-dark text-white p-2 fas fa-search"
-                                        data-toggle="modal" data-target="#exampleModal"></i>
-                                    <div class="item-caption text-center pt-4 pb-1">
-                                        <h5>PROJECT NAME</h5>
-                                        <p>illustration</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="item bg-white m-2">
-                                    <img src="images/illustration-two-thumb.jpg" class="img-fluid">
-                                    <a href="exampleModal" data-toggle="modal" data-target="#exampleModal"><i
-                                            class="rounded-circle bg-dark text-white p-2 fas fa-search"></i></a>
-                                    <div class="item-caption text-center pt-4 pb-1">
-                                        <h5>PROJECT NAME</h5>
-                                        <p>illustration</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="item bg-white m-2">
-                                    <img src="images/website-two-thumb.jpg" class="img-fluid">
-                                    <a href="exampleModal" data-toggle="modal" data-target="#exampleModal"><i
-                                            class="rounded-circle bg-dark text-white p-2 fas fa-search"></i></a>
-                                    <div class="item-caption text-center pt-4 pb-1">
-                                        <h5>PROJECT NAME</h5>
-                                        <p>Website</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="item bg-white m-2">
-                                    <img src="images/branding-two-thumb.jpg" class="img-fluid">
-                                    <a href="exampleModal" data-toggle="modal" data-target="#exampleModal"><i
-                                            class="rounded-circle bg-dark text-white p-2 fas fa-search"></i></a>
-                                    <div class="item-caption text-center pt-4 pb-1">
-                                        <h5>PROJECT NAME</h5>
-                                        <p>Branding</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="item bg-white m-2">
-                                    <img src="images/uidesign-two-thumb.jpg" class="img-fluid">
-                                    <a href="exampleModal" data-toggle="modal" data-target="#exampleModal"><i
-                                            class="rounded-circle bg-dark text-white p-2 fas fa-search"></i></a>
-                                    <div class="item-caption text-center pt-4 pb-1">
-                                        <h5>PROJECT NAME</h5>
-                                        <p>illustration</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="item bg-white m-2">
-                                    <img src="images/uidesign-three-thumb.jpg" class="img-fluid">
-                                    <a href="exampleModal" data-toggle="modal" data-target="#exampleModal"><i
-                                            class="rounded-circle bg-dark text-white p-2 fas fa-search"></i></a>
-                                    <div class="item-caption text-center pt-4 pb-1">
-                                        <h5>PROJECT NAME</h5>
-                                        <p>Website</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="item bg-white m-2">
-                                    <img src="images/branding-three-thumb.jpg" class="img-fluid">
-                                    <a href="exampleModal" data-toggle="modal" data-target="#exampleModal"><i
-                                            class="rounded-circle bg-dark text-white p-2 fas fa-search"></i></a>
-                                    <div class="item-caption text-center pt-4 pb-1">
-                                        <h5>PROJECT NAME</h5>
-                                        <p>Branding</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="pills-branding" role="tabpanel" aria-labelledby="pills-branding-tab">
-                        <div class="row py-5">
-                            <div class="col-md-4">
-                                <div class="item bg-white m-2">
-                                    <img src="images/branding-one-thumb.jpg" class="img-fluid">
-                                    <a href="exampleModal" data-toggle="modal" data-target="#exampleModal"><i
-                                            class="rounded-circle bg-dark text-white p-2 fas fa-search"></i></a>
-                                    <div class="item-caption text-center pt-4 pb-1">
-                                        <h5>PROJECT NAME</h5>
-                                        <p>Branding</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="item bg-white m-2">
-                                    <img src="images/branding-two-thumb.jpg" class="img-fluid">
-                                    <a href="exampleModal" data-toggle="modal" data-target="#exampleModal"><i
-                                            class="rounded-circle bg-dark text-white p-2 fas fa-search"></i></a>
-                                    <div class="item-caption text-center pt-4 pb-1">
-                                        <h5>PROJECT NAME</h5>
-                                        <p>Branding</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="item bg-white m-2">
-                                    <img src="images/branding-three-thumb.jpg" class="img-fluid">
-                                    <i href="#" class="rounded-circle bg-dark text-white p-2 fas fa-search"
-                                        data-toggle="modal" data-target="#exampleModal"></i>
-                                    <div class="item-caption text-center pt-4 pb-1">
-                                        <h5>PROJECT NAME</h5>
-                                        <p>Branding</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="pills-website" role="tabpanel" aria-labelledby="pills-website-tab">
-                        <div class="row py-5">
-                            <div class="col-md-4">
-                                <div class="item bg-white m-2">
-                                    <img src="images/website-one-thumb.jpg" class="img-fluid">
-                                    <a href="exampleModal" data-toggle="modal" data-target="#exampleModal"><i
-                                            class="rounded-circle bg-dark text-white p-2 fas fa-search"></i></a>
-                                    <div class="item-caption text-center pt-4 pb-1">
-                                        <h5>PROJECT NAME</h5>
-                                        <p>Website</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="item bg-white m-2">
-                                    <img src="images/website-two-thumb.jpg" class="img-fluid">
-                                    <a href="exampleModal" data-toggle="modal" data-target="#exampleModal"><i
-                                            class="rounded-circle bg-dark text-white p-2 fas fa-search"></i></a>
-                                    <div class="item-caption text-center pt-4 pb-1">
-                                        <h5>PROJECT NAME</h5>
-                                        <p>Website</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="item bg-white m-2">
-                                    <img src="images/uidesign-three-thumb.jpg" class="img-fluid">
-                                    <a href="exampleModal" data-toggle="modal" data-target="#exampleModal"><i
-                                            class="rounded-circle bg-dark text-white p-2 fas fa-search"></i></a>
-                                    <div class="item-caption text-center pt-4 pb-1">
-                                        <h5>PROJECT NAME</h5>
-                                        <p>Website</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="pills-illu" role="tabpanel" aria-labelledby="pills-illu-tab">
-                        <div class="row py-5">
-                            <div class="col-md-4">
-                                <div class="item bg-white m-2">
-                                    <img src="images/illustration-one-thumb.jpg" class="img-fluid">
-                                    <a href="exampleModal" data-toggle="modal" data-target="#exampleModal"><i
-                                            class="rounded-circle bg-dark text-white p-2 fas fa-search"></i></a>
-                                    <div class="item-caption text-center pt-4 pb-1">
-                                        <h5>PROJECT NAME</h5>
-                                        <p>illustration</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="item bg-white m-2">
-                                    <img src="images/illustration-two-thumb.jpg" class="img-fluid">
-                                    <a href="exampleModal" data-toggle="modal" data-target="#exampleModal"><i
-                                            class="rounded-circle bg-dark text-white p-2 fas fa-search"></i></a>
-                                    <div class="item-caption text-center pt-4 pb-1">
-                                        <h5>PROJECT NAME</h5>
-                                        <p>illustration</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="item bg-white m-2">
-                                    <img src="images/uidesign-two-thumb.jpg" class="img-fluid">
-                                    <a href="exampleModal" data-toggle="modal" data-target="#exampleModal"><i
-                                            class="rounded-circle bg-dark text-white p-2 fas fa-search"></i></a>
-                                    <div class="item-caption text-center pt-4 pb-1">
-                                        <h5>PROJECT NAME</h5>
-                                        <p>illustration</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="col-md-4 mb-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Roof Inspections</h5>
+              <p class="card-text">Professional assessments to catch problems early and plan cost-effective solutions.</p>
             </div>
-            <div class="row text-center">
-                <button class="btn m-auto px-3 py-2"><a href="#hireMe" class="text-decoration-none text-white">GET IN
-                        TOUCH</a></button>
-            </div>
+          </div>
         </div>
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img class="d-block w-100" src="images/website-one-thumb.jpg" alt="First slide">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="images/branding-one-thumb.jpg" alt="Second slide">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="images/illustration-one-thumb.jpg" alt="Third slide">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="images/illustration-two-thumb.jpg" alt="Second slide">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="images/website-two-thumb.jpg" alt="Third slide">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="images/branding-two-thumb.jpg" alt="Second slide">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="images/uidesign-two-thumb.jpg" alt="Third slide">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="images/uidesign-three-thumb.jpg" alt="Second slide">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="images/branding-three-thumb.jpg" alt="Third slide">
-                            </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
-                            data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleControls" role="button"
-                            data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Gallery</h2>
+      <p class="text-center">Take a look at some of our completed projects.</p>
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <img src="images/roof1.jpg" class="img-fluid rounded" alt="Roofing Project 1">
         </div>
-    </section>
-    <section id="testnomials">
-        <div class="row py-5">
-            <div id="carouselExampleControls" class="carousel slide w-100" data-ride="carousel">
-                <div class="container">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="row ">
-                                <div class="col-md-6">
-                                    <div class="test text-center px-2">
-                                        <img src="images/vinayak-rajguru.jpg" class="rounded-circle">
-                                        <p class="text-white py-3">"Lorem ipsum dolor sit amet, consectetuer adipiscing
-                                            elit.
-                                            Aenean commodo ligula
-                                            eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
-                                            parturient
-                                            montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-                                            pellentesque
-                                            eu, pretium quis, sem."</p>
-                                        <h4>Vinayak Rajguru</h4>
-                                        <span class="text-white">Frontend Developer</span>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="test text-center px-2">
-                                        <img src="images/jonathan-doe.jpg" class="rounded-circle">
-                                        <p class="text-white py-3">"Lorem ipsum dolor sit amet, consectetuer adipiscing
-                                            elit.
-                                            Aenean commodo ligula
-                                            eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
-                                            parturient
-                                            montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-                                            pellentesque
-                                            eu, pretium quis, sem."</p>
-                                        <h4>Jonathan Doe</h4>
-                                        <span class="text-white">Developer</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="test text-center px-2">
-                                        <img src="images/jonathan-doe.jpg" class="rounded-circle">
-                                        <p class="text-white py-3">"Lorem ipsum dolor sit amet, consectetuer adipiscing
-                                            elit.
-                                            Aenean commodo ligula
-                                            eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
-                                            parturient
-                                            montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-                                            pellentesque
-                                            eu, pretium quis, sem."</p>
-                                        <h4>Jonathan Doe</h4>
-                                        <span class="text-white">developer</span>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="test text-center px-2">
-                                        <img src="images/dovi-delrito.jpg" class="rounded-circle">
-                                        <p class="text-white py-3">"Lorem ipsum dolor sit amet, consectetuer adipiscing
-                                            elit.
-                                            Aenean commodo ligula
-                                            eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
-                                            parturient
-                                            montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-                                            pellentesque
-                                            eu, pretium quis, sem."</p>
-                                        <h4>Dovi Deleriito</h4>
-                                        <span class="text-white">Designer</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="test text-center px-2">
-                                        <img src="images/dovi-delrito.jpg" class="rounded-circle">
-                                        <p class="text-white py-3">"Lorem ipsum dolor sit amet, consectetuer adipiscing
-                                            elit.
-                                            Aenean commodo ligula
-                                            eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
-                                            parturient
-                                            montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-                                            pellentesque
-                                            eu, pretium quis, sem."</p>
-                                        <h4>Dovi Deleriito</h4>
-                                        <span class="text-white">Designer</span>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="test text-center px-2">
-                                        <img src="images/vinayak-rajguru.jpg" class="rounded-circle">
-                                        <p class="text-white py-3">"Lorem ipsum dolor sit amet, consectetuer adipiscing
-                                            elit.
-                                            Aenean commodo ligula
-                                            eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
-                                            parturient
-                                            montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-                                            pellentesque
-                                            eu, pretium quis, sem."</p>
-                                        <h4>Vinayak Rajguru</h4>
-                                        <span class="text-white">Frontend Developer</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
+        <div class="col-md-4 mb-3">
+          <img src="images/roof2.jpg" class="img-fluid rounded" alt="Roofing Project 2">
         </div>
-    </section>
-    <section id="hireMe">
-        <div class="container py-5">
-            <h2>Hire Me</h2>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-            <div class="row py-5">
-                <div class="col-md-6">
-                    <h4>CONTACT INFO</h4>
-                    <p>Why you should hire me writeup Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                        commodo ligula eget dolor. Aenean massa. Cum sociis natoque nascetur ridiculus mus.
-                    </p>
-                    <div class="row">
-                        <i class="fa fa-map-marker mr-3"></i>
-                        <p>New Street 22545, Nexa Road, New York City, USA</p>
-                    </div>
-                    <div class="row">
-                        <i class="fa fa-envelope mr-3"></i>
-                        <p>hello@uigrid.com</p>
-                    </div>
-                    <div class="row">
-                        <i class="fa fa-phone mr-3"></i>
-                        <p>001-000-000-000</p>
-                    </div>
-                    <div class="row">
-                        <i class="fab fa-facebook p-2 m-2 social"></i>
-                        <i class="fab fa-twitter p-2 m-2 social"></i>
-                        <i class="fab fa-google-plus-g p-2 m-2 social"></i>
-                        <i class="fab fa-github p-2 m-2 social"></i>
-                        <i class="fab fa-behance p-2 m-2 social"></i>
-                        <i class="fab fa-dribbble p-2 m-2 social"></i>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <input class="form-control p-2 my-3" type="text" placeholder="Enter Name">
-                        <input class="form-control p-2 my-3" type="email" placeholder="Enter Email">
-                        <textarea class="form-control p-2 my-3" placeholder="Enter Message"></textarea>
-                        <button class="btn m-auto px-3 py-2" type="submit"><a href="#"
-                                class="text-decoration-none text-white">Send Message</a></button>
-                    </div>
-                </div>
-            </div>
+        <div class="col-md-4 mb-3">
+          <img src="images/roof3.jpg" class="img-fluid rounded" alt="Roofing Project 3">
         </div>
-    </section>
-    <footer id="footer">
-        <div class="container">
-            <div class="row d-flex justify-content-center">
-                <p>Copyright © 2017 UIGRID | All Rights Reserved | <a href="#">www.uigrid.com</a></p>
-            </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-5 bg-dark text-white">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Us</h2>
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <h4>Get In Touch</h4>
+          <p>We’d love to discuss your roofing needs. Reach out for a free quote!</p>
+          <p><i class="fa fa-map-marker mr-2"></i>8809 FOOTHILL BLVD A-178, Sunland, CA 91040</p>
+          <p><i class="fa fa-phone mr-2"></i>(818) 232-2794</p>
+          <p><i class="fa fa-envelope mr-2"></i><a class="text-white" href="mailto:info@coscoroofing.com">coscoroofing@yahoo.com</a></p>
         </div>
-    </footer>
-    <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/index.js"></script>
+        <div class="col-md-6">
+          <form>
+            <input type="text" class="form-control mb-3" placeholder="Your Name" required>
+            <input type="email" class="form-control mb-3" placeholder="Your Email" required>
+            <textarea class="form-control mb-3" rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-3 bg-secondary text-white text-center">
+    <div class="container">
+      <p>&copy; 2025 Cosco Roofing. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/index.js"></script>
 </body>
 
 </html>
