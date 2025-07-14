@@ -120,10 +120,10 @@ body{
 .navbar img{height: 60px;}
 .navbar li a{font-size: 14px;}
 .navbar li a:hover{ 
-    color: #E43035 !important ;
-    border-bottom: 3px solid #E43035;
+    color: #FFFFFF !important ;
+    border-bottom: 3px solid #FFFFFF;
 }
-.navbar li :focus{color: #E43035 !important;}
+.navbar li :focus{color: #FFFFFF !important;}
 .homepage {
     padding-top: 8rem;
     height: 85vh;
@@ -159,7 +159,7 @@ h1{
 }
 .homepage button:hover{
     background-color: #FFF;
-    color: #E43035;
+    color: #FFFFFF;
     border-color: #FFF
 }
 h2{
@@ -184,26 +184,26 @@ h5{
     font-size: 14px;
 }
 .prog-item .progress{height: 12px;}
-.prog-item .prog{background-color: #E43035;}
-#about button , #work button , #portfolio button , #hireMe button{background-color: #E43035;}
+.prog-item .prog{background-color: #FFFFFF;}
+#about button , #work button , #portfolio button , #hireMe button{background-color: #FFFFFF;}
 #about button:hover , #work button:hover , #portfolio button:hover , #hireMe button:hover{background-color: #C62D32}
 #work , #portfolio{background-color: #F5F5F5;}
 .work-item h5{font-weight: 600}
-.work-item:hover h5{color: #E43035}
+.work-item:hover h5{color: #FFFFFF}
 .work-item i{
     color: #777;
     background-color: #EEE
 }
 .work-item:hover i{
     color: #FFF;
-    background-color: #E43035;
+    background-color: #FFFFFF;
 }
 .counter h5 {
-    color: #E43035;
+    color: #FFFFFF;
     font-weight: 600;
 }
 .counter i{
-    color: #E43035;
+    color: #FFFFFF;
     line-height: 1.6rem;
 }
 #count{
@@ -217,7 +217,7 @@ h5{
     left :45%;
     top: 60%;
 }
-.item i:hover{background-color: #E43035 !important}
+.item i:hover{background-color: #FFFFFF !important}
 .my-items li a{
     margin: 2px;
     border-radius: 0 !important;
@@ -227,18 +227,18 @@ h5{
     margin-bottom: 30px !important;
 }
 .my-items li .active{
-    background-color: #E43035 !important;
+    background-color: #FFFFFF !important;
     color: #FFF !important;
     border: none;
 }
 .my-items li a:active , .my-items li a:focus-within{
-    background-color: #E43035 !important;
+    background-color: #FFFFFF !important;
     color:#FFF !important;
     border: none;
 }
 .my-items li a:hover{
-    color: #E43035 !important;
-    border: 2px solid #E43035 ;
+    color: #FFFFFF !important;
+    border: 2px solid #FFFFFF ;
 }
 .my-items li .active:hover{color: #FFF !important;}
 #testnomials{
@@ -247,9 +247,9 @@ h5{
     background-attachment: fixed;
     cursor: move ;
 }
-.test img{border: 5px solid #E43035;}
+.test img{border: 5px solid #FFFFFF;}
 .test h4 {
-    color: #E43035;
+    color: #FFFFFF;
     font-weight: 600;
 }
 #hireMe i{color: #777}
@@ -258,11 +258,11 @@ h5{
     color: #777;
 }
 #hireMe .social:hover{
-    background-color: #E43035;
+    background-color: #FFFFFF;
     color: #FFF;
     font-size: 1.5rem;
 }
-#footer a{color: #E43035;}
+#footer a{color: #FFFFFF;}
 
 .my-yellow-navbar {
     background-color: #FFE880;
