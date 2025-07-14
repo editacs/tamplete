@@ -270,7 +270,7 @@ h5{
 
 .my-yellow-navbar .nav-link,
 .my-yellow-navbar .navbar-brand span {
-    color: #000 !important;
+    color: #333 !important;
 }
 .my-yellow-navbar .nav-link:hover {
     color: #FFD700 !important;
