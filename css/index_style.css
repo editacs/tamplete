@@ -108,7 +108,7 @@ body{
     display: none;
 }
 #home{
-    background-image: url(../images/cover.png);
+    background-image: url(../images/cover.png.png);
     background-size: cover;
     background-position: center;
 }
