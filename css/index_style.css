@@ -264,17 +264,17 @@ h5{
 }
 #footer a{color: #E43035;}
     
-.my-yellow-navbar {
-    background-color: #FFD700; /* Bright yellow */
+.my-gray-navbar {
+    background-color: #333333;
 }
 
-.my-yellow-navbar .nav-link,
-.my-yellow-navbar .navbar-brand span {
-    color: #000 !important; /* Make text black for contrast */
+.my-gray-navbar .nav-link,
+.my-gray-navbar .navbar-brand span {
+    color: #FFF !important;
 }
 
-.my-yellow-navbar .nav-link:hover {
-    color: #E43035 !important; /* Optional hover color */
+.my-gray-navbar .nav-link:hover {
+    color: #E43035 !important; /* Optional red accent on hover */
 }
 
 
