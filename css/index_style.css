@@ -263,19 +263,6 @@ h5{
     font-size: 1.5rem;
 }
 #footer a{color: #E43035;}
-    
-.my-gray-navbar {
-    background-color: transparent;
-}
-
-.my-gray-navbar .nav-link,
-.my-gray-navbar .navbar-brand span {
-    color: #FFF !important;
-}
-
-.my-gray-navbar .nav-link:hover {
-    color: #FFF099 !important; /* Optional red accent on hover */
-}
 
 .my-yellow-navbar {
     background-color: #FFE880;
@@ -287,6 +274,6 @@ h5{
 }
 
 .my-yellow-navbar .nav-link:hover {
-    color: #E43035 !important;
+    color: #FFD700 !important;
 }
 
