@@ -277,4 +277,16 @@ h5{
     color: #FFF099 !important; /* Optional red accent on hover */
 }
 
+.my-yellow-navbar {
+    background-color: #FFE880;
+}
+
+.my-yellow-navbar .nav-link,
+.my-yellow-navbar .navbar-brand span {
+    color: #000 !important;
+}
+
+.my-yellow-navbar .nav-link:hover {
+    color: #E43035 !important;
+}
 
