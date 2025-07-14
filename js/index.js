@@ -23,3 +23,10 @@ $("nav a").click(function () {
     let aOffset = $(aHref).offset().top;
     $("body,html").animate({ scrollTop: aOffset }, 1000)
 })
+
+$(window).on('load', function() {
+  $('#loading').fadeOut(500, function() {
+    $('body').css('overflow', 'auto');
+  });
+});
+
