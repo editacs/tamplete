@@ -36,8 +36,9 @@ body {
   color: #333 !important;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  font-weight: 600;
-  font-size: 16px;
+  font-weight: 700;
+  font-size: 24px;
+  margin-left: 10px;
 }
 
 .my-yellow-navbar .nav-link:hover {
