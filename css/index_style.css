@@ -330,3 +330,6 @@ h5 {
 #footer a {
   color: #E1B000;
 }
+html {
+  scroll-padding-top: 70px;
+}
