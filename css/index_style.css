@@ -1,283 +1,169 @@
-body{
-    font-family: 'Poppins', sans-serif;
-    padding-top: 0px;
-}
-#loading{
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    z-index: 786876;
-    background-color: rgba(220, 220, 220, 0.2);
+/* GENERAL */
+body {
+  font-family: 'Poppins', sans-serif;
+  padding-top: 60px;
 }
 
-.sk-folding-cube {
-    margin: 20px auto;
-    width: 40px;
-    height: 40px;
-    position: relative;
-    top: 40%;
-    -webkit-transform: rotateZ(45deg);
-            transform: rotateZ(45deg);
-  }
-  
-  .sk-folding-cube .sk-cube {
-    float: left;
-    width: 50%;
-    height: 50%;
-    position: relative;
-    -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-            transform: scale(1.1); 
-  }
-  .sk-folding-cube .sk-cube:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #fff;
-    -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
-            animation: sk-foldCubeAngle 2.4s infinite linear both;
-    -webkit-transform-origin: 100% 100%;
-        -ms-transform-origin: 100% 100%;
-            transform-origin: 100% 100%;
-  }
-  .sk-folding-cube .sk-cube2 {
-    -webkit-transform: scale(1.1) rotateZ(90deg);
-            transform: scale(1.1) rotateZ(90deg);
-  }
-  .sk-folding-cube .sk-cube3 {
-    -webkit-transform: scale(1.1) rotateZ(180deg);
-            transform: scale(1.1) rotateZ(180deg);
-  }
-  .sk-folding-cube .sk-cube4 {
-    -webkit-transform: scale(1.1) rotateZ(270deg);
-            transform: scale(1.1) rotateZ(270deg);
-  }
-  .sk-folding-cube .sk-cube2:before {
-    -webkit-animation-delay: 0.3s;
-            animation-delay: 0.3s;
-  }
-  .sk-folding-cube .sk-cube3:before {
-    -webkit-animation-delay: 0.6s;
-            animation-delay: 0.6s; 
-  }
-  .sk-folding-cube .sk-cube4:before {
-    -webkit-animation-delay: 0.9s;
-            animation-delay: 0.9s;
-  }
-  @-webkit-keyframes sk-foldCubeAngle {
-    0%, 10% {
-      -webkit-transform: perspective(140px) rotateX(-180deg);
-              transform: perspective(140px) rotateX(-180deg);
-      opacity: 0; 
-    } 25%, 75% {
-      -webkit-transform: perspective(140px) rotateX(0deg);
-              transform: perspective(140px) rotateX(0deg);
-      opacity: 1; 
-    } 90%, 100% {
-      -webkit-transform: perspective(140px) rotateY(180deg);
-              transform: perspective(140px) rotateY(180deg);
-      opacity: 0; 
-    } 
-  }
-  @keyframes sk-foldCubeAngle {
-    0%, 10% {
-      -webkit-transform: perspective(140px) rotateX(-180deg);
-              transform: perspective(140px) rotateX(-180deg);
-      opacity: 0; 
-    } 25%, 75% {
-      -webkit-transform: perspective(140px) rotateX(0deg);
-              transform: perspective(140px) rotateX(0deg);
-      opacity: 1; 
-    } 90%, 100% {
-      -webkit-transform: perspective(140px) rotateY(180deg);
-              transform: perspective(140px) rotateY(180deg);
-      opacity: 0; 
-    }
-  }
-#btnUp{
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    width: 50px;
-    color: #FFF;
-    display: none;
+/* LOADING */
+#loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 786876;
+  background-color: rgba(220, 220, 220, 0.2);
 }
-#home{
-    background-image: url(../images/cover.png.png);
-    background-size: cover;
-    background-position: center;
-}
-.navbar{padding: 0 15rem}
-.navbar a{
-    font-size: 18px;
-    font-weight: 600;
-}
-.navbar img{height: 60px;}
-.navbar li a{font-size: 14px;}
-.navbar li a:hover{ 
-    color: #FFFFFF !important ;
-    border-bottom: 3px solid #FFFFFF;
-}
-.navbar li :focus{color: #FFFFFF !important;}
-.homepage {
-    padding-top: 8rem;
-    height: 85vh;
-    background-color: rgba(220, 220, 220, 0.2);
-    position: relative;
-}
-.homepage i{
-    position: absolute;
-    left: 50%;
-    bottom: 5%;
-    animation-name: move;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out
-}
-@keyframes move{
-    0%{bottom: 5%}
-    50%{bottom: 15%}
-    100%{bottom: 5%}
-}
-h1{
-    font-size: 56px;
-    font-weight: 700;
-}
-.homepage h1{
-    text-shadow: 0px 5px 10px #af2424;
-}
-.homepage button , #about button , #work button , #portfolio button , #hireMe button{
-    border: solid #FFF 2px;
-    color: #FFF;
-    border-radius: 0px;
-    font-size: 15.4px;
-}
-.homepage button:hover{
-    background-color: #FFF;
-    color: #FFFFFF;
-    border-color: #FFF
-}
-h2{
-    font-size: 35px;
-    font-weight: 700
-}
-p{
-    color: #969696;
-    font-size: 16px;
-}
-h3{
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 33px;
-}
-h5{
-    font-size: 18px;
-    font-weight: 500;
-}
-.prog-item span{
-    color: #969696;
-    font-size: 14px;
-}
-.prog-item .progress{height: 12px;}
-.prog-item .prog{background-color: #FFFFFF;}
-#about button , #work button , #portfolio button , #hireMe button{background-color: #FFFFFF;}
-#about button:hover , #work button:hover , #portfolio button:hover , #hireMe button:hover{background-color: #C62D32}
-#work , #portfolio{background-color: #F5F5F5;}
-.work-item h5{font-weight: 600}
-.work-item:hover h5{color: #FFFFFF}
-.work-item i{
-    color: #777;
-    background-color: #EEE
-}
-.work-item:hover i{
-    color: #FFF;
-    background-color: #FFFFFF;
-}
-.counter h5 {
-    color: #FFFFFF;
-    font-weight: 600;
-}
-.counter i{
-    color: #FFFFFF;
-    line-height: 1.6rem;
-}
-#count{
-    background-image: url(../images/project-counter.jpg);
-    background-color: rgba(0,0,0,0.7)
-}
-.counter{border: 1px solid #969696}
-.item{position: relative}
-.item i{
-    position: absolute;
-    left :45%;
-    top: 60%;
-}
-.item i:hover{background-color: #FFFFFF !important}
-.my-items li a{
-    margin: 2px;
-    border-radius: 0 !important;
-    background-color: transparent;
-    border: 2px solid #969696;
-    color: #000 !important;
-    margin-bottom: 30px !important;
-}
-.my-items li .active{
-    background-color: #FFFFFF !important;
-    color: #FFF !important;
-    border: none;
-}
-.my-items li a:active , .my-items li a:focus-within{
-    background-color: #FFFFFF !important;
-    color:#FFF !important;
-    border: none;
-}
-.my-items li a:hover{
-    color: #FFFFFF !important;
-    border: 2px solid #FFFFFF ;
-}
-.my-items li .active:hover{color: #FFF !important;}
-#testnomials{
-    background-image: url(../images/client-testimonial.jpg);
-    background-size: 100% 100%;
-    background-attachment: fixed;
-    cursor: move ;
-}
-.test img{border: 5px solid #FFFFFF;}
-.test h4 {
-    color: #FFFFFF;
-    font-weight: 600;
-}
-#hireMe i{color: #777}
-#hireMe .social{
-    border: 1px solid #EEE;
-    color: #777;
-}
-#hireMe .social:hover{
-    background-color: #FFFFFF;
-    color: #FFF;
-    font-size: 1.5rem;
-}
-#footer a{color: #FFFFFF;}
 
+/* BUTTON UP */
+#btnUp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  color: #FFF;
+  display: none;
+}
+
+/* NAVBAR */
 .my-yellow-navbar {
-    background-color: #F5C518 !important;
+  background-color: #F5C518 !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .my-yellow-navbar .nav-link,
 .my-yellow-navbar .navbar-brand span {
-    color: #333 !important;
+  color: #333 !important;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-weight: 600;
+  font-size: 16px;
 }
+
 .my-yellow-navbar .nav-link:hover {
-    color: #FFD700 !important;
+  color: #FFD700 !important;
 }
-.my-yellow-navbar {
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}    
+
+.navbar-brand {
+  padding-right: 20px;
+}
+
+.navbar-brand img {
+  height: 50px;
+  max-height: 50px;
+  margin-right: 20px;
+}
+
+.navbar-toggler {
+  border-color: #333;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(51,51,51, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0 1rem;
+  }
+
+  .navbar-brand img {
+    height: 35px;
+  }
+}
+
+/* HOMEPAGE HEADER */
+#home {
+  background-image: url(../images/cover.png.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.homepage {
+  position: relative;
+  padding-top: 8rem;
+  height: 85vh;
+  overflow: hidden;
+}
+
+.homepage::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background-color: rgba(0, 0, 0, 0.35);
+  z-index: 1;
+}
+
+.homepage .container {
+  position: relative;
+  z-index: 2;
+}
+
+.homepage h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-shadow: 0px 5px 10px #af2424;
+}
+
+.homepage h4 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.homepage button {
+  background-color: #E1B000;
+  border-color: #E1B000;
+  color: #000;
+  border-radius: 0;
+  font-size: 16px;
+}
+
+.homepage button:hover {
+  background-color: #CF9E00;
+  border-color: #CF9E00;
+  color: #000;
+}
+
+/* BUTTONS */
+.btn-primary {
+  background-color: #E1B000;
+  border-color: #E1B000;
+  color: #000;
+}
+
+.btn-primary:hover {
+  background-color: #CF9E00;
+  border-color: #CF9E00;
+  color: #000;
+}
+
+/* HEADINGS */
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+p {
+  color: #969696;
+  font-size: 16px;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 33px;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* SERVICES LIST */
 .service-list {
   display: flex;
   flex-direction: column;
@@ -302,43 +188,145 @@ h5{
   width: 40px;
   height: 40px;
 }
-.my-yellow-navbar {
-    background-color: #FFE880;
+
+/* OTHER STYLES */
+.prog-item span {
+  color: #969696;
+  font-size: 14px;
 }
 
-.my-yellow-navbar .nav-link,
-.my-yellow-navbar .navbar-brand span {
-    color: #333 !important;
+.prog-item .progress {
+  height: 12px;
 }
 
-.my-yellow-navbar .nav-link:hover {
-    color: #FFD700 !important;
+.prog-item .prog {
+  background-color: #E1B000;
 }
 
-.navbar-brand img {
-    height: 60px;
-    margin-right: 60px;
+#about button, #work button, #portfolio button, #hireMe button {
+  background-color: #E1B000;
 }
 
-/* Make hamburger menu icon dark for visibility on yellow */
-.navbar-toggler {
-    border-color: #333;
+#about button:hover, #work button:hover, #portfolio button:hover, #hireMe button:hover {
+  background-color: #CF9E00;
 }
 
-.navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(51,51,51, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+#work, #portfolio {
+  background-color: #F5F5F5;
 }
 
-/* Mobile padding fix */
-@media (max-width: 768px) {
-  .navbar {
-    padding: 0 1rem;
-  }
-
-  .navbar-brand img {
-    height: 35px;
-  }
+.work-item h5 {
+  font-weight: 600;
 }
 
+.work-item:hover h5 {
+  color: #E1B000;
+}
 
+.work-item i {
+  color: #777;
+  background-color: #EEE;
+}
 
+.work-item:hover i {
+  color: #FFF;
+  background-color: #E1B000;
+}
+
+.counter h5 {
+  color: #E1B000;
+  font-weight: 600;
+}
+
+.counter i {
+  color: #E1B000;
+  line-height: 1.6rem;
+}
+
+#count {
+  background-image: url(../images/project-counter.jpg);
+  background-color: rgba(0,0,0,0.7);
+}
+
+.counter {
+  border: 1px solid #969696;
+}
+
+.item {
+  position: relative;
+}
+
+.item i {
+  position: absolute;
+  left: 45%;
+  top: 60%;
+}
+
+.item i:hover {
+  background-color: #E1B000 !important;
+}
+
+.my-items li a {
+  margin: 2px;
+  border-radius: 0 !important;
+  background-color: transparent;
+  border: 2px solid #969696;
+  color: #000 !important;
+  margin-bottom: 30px !important;
+}
+
+.my-items li .active {
+  background-color: #E1B000 !important;
+  color: #FFF !important;
+  border: none;
+}
+
+.my-items li a:active, .my-items li a:focus-within {
+  background-color: #E1B000 !important;
+  color: #FFF !important;
+  border: none;
+}
+
+.my-items li a:hover {
+  color: #E1B000 !important;
+  border: 2px solid #E1B000;
+}
+
+.my-items li .active:hover {
+  color: #FFF !important;
+}
+
+#testnomials {
+  background-image: url(../images/client-testimonial.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  cursor: move;
+}
+
+.test img {
+  border: 5px solid #E1B000;
+}
+
+.test h4 {
+  color: #E1B000;
+  font-weight: 600;
+}
+
+#hireMe i {
+  color: #777;
+}
+
+#hireMe .social {
+  border: 1px solid #EEE;
+  color: #777;
+}
+
+#hireMe .social:hover {
+  background-color: #E1B000;
+  color: #FFF;
+  font-size: 1.5rem;
+}
+
+#footer a {
+  color: #E1B000;
+}
