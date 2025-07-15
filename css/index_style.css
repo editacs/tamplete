@@ -331,5 +331,7 @@ h5 {
   color: #E1B000;
 }
 html {
+  scroll-behavior: smooth;
   scroll-padding-top: 70px;
 }
+
