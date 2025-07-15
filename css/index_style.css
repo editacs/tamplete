@@ -31,30 +31,41 @@ body {
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-.my-yellow-navbar .nav-link,
-.my-yellow-navbar .navbar-brand span {
+/* Nav links - normal size */
+.my-yellow-navbar .nav-link {
   color: #333 !important;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  font-weight: 700;
-  font-size: 24px;
-  margin-left: 10px;
+  font-weight: 600;
+  font-size: 16px;
 }
 
 .my-yellow-navbar .nav-link:hover {
   color: #FFD700 !important;
 }
 
+/* Brand container */
 .navbar-brand {
+  display: flex;
+  align-items: center;
   padding-right: 20px;
 }
 
+/* Logo image bigger */
 .navbar-brand img {
   height: 70px;
   max-height: 70px;
-  margin-right: 15px;
+  margin-right: 10px;
 }
 
+/* Brand text ("Cosco Roofing") bigger */
+.my-yellow-navbar .navbar-brand span {
+  color: #333 !important;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+/* Hamburger menu icon dark */
 .navbar-toggler {
   border-color: #333;
 }
@@ -70,6 +81,10 @@ body {
 
   .navbar-brand img {
     height: 35px;
+  }
+
+  .my-yellow-navbar .navbar-brand span {
+    font-size: 20px;
   }
 }
 
@@ -331,8 +346,8 @@ h5 {
 #footer a {
   color: #E1B000;
 }
+
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 70px;
 }
-
