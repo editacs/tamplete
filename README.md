@@ -1,5 +1,5 @@
-# CoderBitesTamplete
-This is a responsive (mobile/desktop) and light-weight HTML/CSS/JS template for building projects or personal websites. If your website does not require complex user interactions, This project is a simple design for building interactive website.
+# Cosco Roofing Website
+This is a responsive (mobile/desktop) and light-weight HTML/CSS/JS website. This project is a simple design for building interactive website.
 
 How to download this template:
 
@@ -11,7 +11,7 @@ Easy Way - Download the .zip file
 Programmer Way - Clone the Git Repo
 
     If you have git on your computer and a github account, you can clone this project from the command line
-    git clone https://github.com/SoohaMagdy/CoderBitesTamplete.git
+    git clone
 
 How to use this template:
 
